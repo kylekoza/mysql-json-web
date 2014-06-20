@@ -1,4 +1,7 @@
 <?php
 
+$dbserver = "";
+$username = "";
+$password = "";
 
 ?>
