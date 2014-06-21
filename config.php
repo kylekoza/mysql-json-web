@@ -1,7 +1,9 @@
 <?php
 
+$basepath = "";
+
 $dbserver = "";
-$username = "";
-$password = "";
+$dbusername = "";
+$dbpassword = "";
 
 ?>
