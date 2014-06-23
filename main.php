@@ -14,9 +14,12 @@
     // Split the request URI into an array based on forward slashes
     $requestArray = split("/", $request);
 
+    // Remove NULL array values and reindex
+    $requestArray = array_values(array_filter($requestArray));
+
     // Split the second item in the array to separate the table name from the
     // filetype (There's probably a better way to do this)
-    $requestArray[1] = split(".", $requestArray[1]);
+    $requestArray[1] = split("\.", $requestArray[1]);
 
     // Set variables based on the request URI
     $dbname = $requestArray[0];
