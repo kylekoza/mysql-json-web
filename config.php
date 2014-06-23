@@ -1,9 +1,9 @@
 <?php
 
-$basepath = "";
+    $basepath = "";
 
-$dbserver = "";
-$dbusername = "";
-$dbpassword = "";
+    $dbserver = "";
+    $dbusername = "";
+    $dbpassword = "";
 
 ?>

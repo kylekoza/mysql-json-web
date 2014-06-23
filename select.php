@@ -1,9 +1,8 @@
 <?php
 
-$db = new PDO("mysql:host=$dbserver;dbname=$dbname", $dbusername, $dbpassword);
+    $db = new PDO("mysql:host=$dbserver;dbname=$dbname", $dbusername, $dbpassword);
 
-$query = "SELECT * FROM $table;";
-
+    $query = "SELECT * FROM $table;";
 
 ?>
 
